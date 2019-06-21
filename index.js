@@ -2,5 +2,19 @@
 var customerName;
 
 function upperCaseCustomerName() {
-  customerName.upperCase;
+  customerName.toupperCase();
+}
+
+function setBestCustomer() {
+  var bestCustomer = 'not bob';
+}
+
+function overwriteBestCustomer() {
+  bestCustomer = 'bob';
+}
+
+const leastFavoriteCustomer = 'Brit';
+
+function changeLeastFavoriteCustomer() {
+  leastFavoriteCustomer = 'Dan';
 }
